@@ -86,9 +86,5 @@
   <img src="https://raw.githubusercontent.com/czl9707/gh-space-shooter/main/example.gif" alt="Space shooter contribution graph" />
 </p>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=poppins&pause=1000&color=00F7CD&background=FF0000&center=true&vCenter=true&random=true&width=435&lines=I+speak+fluent+Git%2C+Python+and+JavaScripT;WELCOME+AGAIN)](https://git.io/typing-svg)
-
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=poppins&pause=1000&color=F7E600&background=FF0000&center=true&vCenter=true&width=435&lines=HELLO+EVERYONE++DARSHAN+HERE;I+LOVE+CODING)](https://git.io/typing-svg)
-<img align="right" width="200" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbnRpZXE4ajlkMTY2M3Fpb2NnYWE2OXNoeTBkYzA5dng0dmNsbnl4ayZlcD12MV9naWZzX3NlYXJjaCZjdD1n/hun4DFmfnDId3lid5b/giphy.gif" alt="animated"/>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=poppins&pause=1000&color=00F7CD&background=FF0000&center=true&vCenter=true&random=true&width=450&height=54&lines=I+speak+fluent+Git%2C+Python+and+JavaScripT;WELCOME+AGAIN)](https://git.io/typing-svg)
 
