@@ -86,10 +86,7 @@
   <img src="https://raw.githubusercontent.com/czl9707/gh-space-shooter/main/example.gif" alt="Space shooter contribution graph" />
 </p>
 
-
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" alt="Bottom Line" width="100%" />
-</div>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=poppins&pause=1000&color=00F7CD&background=FF0000&center=true&vCenter=true&random=true&width=435&lines=I+speak+fluent+Git%2C+Python+and+JavaScripT;WELCOME+AGAIN)](https://git.io/typing-svg)
 
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=poppins&pause=1000&color=F7E600&background=FF0000&center=true&vCenter=true&width=435&lines=HELLO+EVERYONE++DARSHAN+HERE;I+LOVE+CODING)](https://git.io/typing-svg)
