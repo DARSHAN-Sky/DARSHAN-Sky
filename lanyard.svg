@@ -1,0 +1,78 @@
+<svg viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @media (prefers-color-scheme: dark) {
+        .card-bg { fill: #161b22; stroke: #58a6ff; }
+        .card-text-name { fill: #58a6ff; }
+        .card-text-role { fill: #79c0ff; }
+        .card-text-location { fill: #a371f7; }
+        .card-text-email { fill: #79c0ff; }
+        .lanyard-line { stroke: #58a6ff; }
+      }
+      @media (prefers-color-scheme: light) {
+        .card-bg { fill: #f6f8fa; stroke: #0969da; }
+        .card-text-name { fill: #0969da; }
+        .card-text-role { fill: #1158c7; }
+        .card-text-location { fill: #6639ba; }
+        .card-text-email { fill: #1158c7; }
+        .lanyard-line { stroke: #0969da; }
+      }
+      
+      .card-bg { fill: #161b22; stroke: #58a6ff; stroke-width: 2; }
+      .card-text-name { fill: #58a6ff; font-size: 32px; font-weight: bold; font-family: 'Courier New', monospace; }
+      .card-text-role { fill: #79c0ff; font-size: 20px; font-family: 'Courier New', monospace; }
+      .card-text-location { fill: #a371f7; font-size: 16px; font-family: 'Courier New', monospace; }
+      .card-text-email { fill: #79c0ff; font-size: 14px; font-family: 'Courier New', monospace; }
+      .lanyard-line { stroke: #58a6ff; stroke-width: 4; }
+      
+      @keyframes swing {
+        0%, 100% { transform: rotateZ(0deg); transform-origin: 200px 0; }
+        50% { transform: rotateZ(3deg); transform-origin: 200px 0; }
+      }
+      @keyframes pulse {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.8; }
+      }
+      
+      .card-group { animation: swing 3s ease-in-out infinite; }
+      .glow-effect { animation: pulse 2s ease-in-out infinite; }
+    </style>
+  </defs>
+  
+  <!-- Lanyard string -->
+  <line x1="200" y1="0" x2="200" y2="50" class="lanyard-line"/>
+  
+  <!-- Card group (swings) -->
+  <g class="card-group glow-effect">
+    <!-- ID Card -->
+    <rect x="50" y="60" width="300" height="380" rx="15" class="card-bg"/>
+    
+    <!-- Card header line -->
+    <line x1="60" y1="100" x2="340" y2="100" class="lanyard-line"/>
+    
+    <!-- Profile section -->
+    <circle cx="200" cy="140" r="30" fill="#58a6ff" opacity="0.3"/>
+    <text x="200" y="150" text-anchor="middle" font-size="40" text-decoration="none">👨‍💻</text>
+    
+    <!-- Name -->
+    <text x="200" y="200" text-anchor="middle" class="card-text-name">DARSHAN</text>
+    
+    <!-- Role -->
+    <text x="200" y="235" text-anchor="middle" class="card-text-role">AIML ENGINEER</text>
+    
+    <!-- Divider -->
+    <line x1="70" y1="250" x2="330" y2="250" class="lanyard-line" opacity="0.5"/>
+    
+    <!-- Location -->
+    <text x="70" y="290" class="card-text-location">📍 Location:</text>
+    <text x="70" y="315" class="card-text-location" font-size="16">INDIA</text>
+    
+    <!-- Email -->
+    <text x="70" y="355" class="card-text-email">📧 Email:</text>
+    <text x="70" y="375" class="card-text-email" font-size="12">darshan07062008@gmail.com</text>
+    
+    <!-- Quote -->
+    <text x="70" y="410" class="card-text-email" font-size="13" font-style="italic">"Always learning,</text>
+    <text x="70" y="428" class="card-text-email" font-size="13" font-style="italic">always coding"</text>
+  </g>
+</svg>
