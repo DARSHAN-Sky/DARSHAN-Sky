@@ -11,12 +11,25 @@
 
 <br/>
 
+<style>
+  @keyframes swing {
+    0%, 100% { transform: rotateZ(-2deg); }
+    50% { transform: rotateZ(2deg); }
+  }
+  
+  .id-badge {
+    animation: swing 2s ease-in-out infinite;
+    transform-origin: top center;
+    display: inline-block;
+  }
+</style>
+
 <table align="center" border="0">
 <tr>
 <td width="38%" align="center" valign="middle">
 
-<!-- 🪪 Anime Boy ID Card -->
-<div style="background: linear-gradient(135deg, #161b22 0%, #0d1117 100%); border: 3px solid #58a6ff; border-radius: 15px; padding: 20px; width: 300px; text-align: center; box-shadow: 0 0 20px rgba(88, 166, 255, 0.3);">
+<!-- 🪪 Swinging Anime Boy ID Card -->
+<div class="id-badge" style="background: linear-gradient(135deg, #161b22 0%, #0d1117 100%); border: 3px solid #58a6ff; border-radius: 15px; padding: 20px; width: 300px; text-align: center; box-shadow: 0 0 20px rgba(88, 166, 255, 0.3);">
 
   <!-- Anime Boy Image -->
   <img src="https://img.magnific.com/premium-vector/young-man-anime-style-character-vector-illustration-design-manga-anime-boy_147933-4741.jpg?semt=ais_test_b&w=740&q=80" alt="Profile" style="width: 120px; height: 120px; border-radius: 50%; border: 3px solid #58a6ff; margin-bottom: 15px; object-fit: cover;">
