@@ -1,90 +1,305 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&customColorList=6,11,20,29&text=DARSHAN&fontSize=48&fontColor=fff&animation=twinkling&fontAlignY=35&desc=AI%2FML%20ENGINEER&descSize=18&descAlignY=55&textBg=false"/>
+<svg viewBox="0 0 1200 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @media (prefers-color-scheme: dark) {
+        .bg { fill: #0d1117; }
+        .text-name { fill: #58a6ff; }
+        .text-role { fill: #79c0ff; }
+        .text-location { fill: #a371f7; }
+        .accent-line { stroke: #58a6ff; }
+      }
+      @media (prefers-color-scheme: light) {
+        .bg { fill: #ffffff; }
+        .text-name { fill: #0969da; }
+        .text-role { fill: #1158c7; }
+        .text-location { fill: #6639ba; }
+        .accent-line { stroke: #0969da; }
+      }
+      
+      .bg { fill: #0d1117; }
+      .text-name { fill: #58a6ff; font-size: 72px; font-weight: bold; font-family: 'Courier New', monospace; }
+      .text-role { fill: #79c0ff; font-size: 48px; font-family: 'Courier New', monospace; }
+      .text-location { fill: #a371f7; font-size: 36px; font-family: 'Courier New', monospace; }
+      .accent-line { stroke: #58a6ff; stroke-width: 3; }
+      
+      @keyframes slideIn {
+        from { opacity: 0; transform: translateX(-50px); }
+        to { opacity: 1; transform: translateX(0); }
+      }
+      @keyframes glow {
+        0%, 100% { filter: drop-shadow(0 0 5px #58a6ff); }
+        50% { filter: drop-shadow(0 0 15px #58a6ff); }
+      }
+      
+      .name-text { animation: slideIn 1s ease-out, glow 2s infinite; }
+      .role-text { animation: slideIn 1.2s ease-out, glow 2s infinite 0.3s; }
+      .location-text { animation: slideIn 1.4s ease-out, glow 2s infinite 0.6s; }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="400" class="bg"/>
+  
+  <!-- Accent line top -->
+  <line x1="50" y1="60" x2="350" y2="60" class="accent-line"/>
+  
+  <!-- Name -->
+  <text x="100" y="130" class="text-name name-text">DARSHAN</text>
+  
+  <!-- Role -->
+  <text x="100" y="200" class="text-role role-text">AIML ENGINEER</text>
+  
+  <!-- Location with icon -->
+  <circle cx="90" cy="260" r="6" fill="#a371f7"/>
+  <text x="110" y="270" class="text-location location-text">📍 INDIA</text>
+  
+  <!-- Accent line bottom -->
+  <line x1="50" y1="310" x2="350" y2="310" class="accent-line"/>
+  
+  <!-- Decorative dots -->
+  <circle cx="1050" cy="80" r="4" fill="#58a6ff" opacity="0.5"/>
+  <circle cx="1100" cy="120" r="6" fill="#79c0ff" opacity="0.4"/>
+  <circle cx="1150" cy="160" r="5" fill="#a371f7" opacity="0.5"/>
+  <circle cx="1120" cy="220" r="4" fill="#58a6ff" opacity="0.3"/>
+</svg>
+<svg viewBox="0 0 1200 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg { fill: #ffffff; }
+      .text-name { fill: #0969da; font-size: 72px; font-weight: bold; font-family: 'Courier New', monospace; }
+      .text-role { fill: #1158c7; font-size: 48px; font-family: 'Courier New', monospace; }
+      .text-location { fill: #6639ba; font-size: 36px; font-family: 'Courier New', monospace; }
+      .accent-line { stroke: #0969da; stroke-width: 3; }
+      
+      @keyframes slideIn {
+        from { opacity: 0; transform: translateX(-50px); }
+        to { opacity: 1; transform: translateX(0); }
+      }
+      @keyframes glow {
+        0%, 100% { filter: drop-shadow(0 0 5px #0969da); }
+        50% { filter: drop-shadow(0 0 15px #0969da); }
+      }
+      
+      .name-text { animation: slideIn 1s ease-out, glow 2s infinite; }
+      .role-text { animation: slideIn 1.2s ease-out, glow 2s infinite 0.3s; }
+      .location-text { animation: slideIn 1.4s ease-out, glow 2s infinite 0.6s; }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="400" class="bg"/>
+  
+  <!-- Accent line top -->
+  <line x1="50" y1="60" x2="350" y2="60" class="accent-line"/>
+  
+  <!-- Name -->
+  <text x="100" y="130" class="text-name name-text">DARSHAN</text>
+  
+  <!-- Role -->
+  <text x="100" y="200" class="text-role role-text">AIML ENGINEER</text>
+  
+  <!-- Location with icon -->
+  <circle cx="90" cy="260" r="6" fill="#6639ba"/>
+  <text x="110" y="270" class="text-location location-text">📍 INDIA</text>
+  
+  <!-- Accent line bottom -->
+  <line x1="50" y1="310" x2="350" y2="310" class="accent-line"/>
+  
+  <!-- Decorative dots -->
+  <circle cx="1050" cy="80" r="4" fill="#0969da" opacity="0.5"/>
+  <circle cx="1100" cy="120" r="6" fill="#1158c7" opacity="0.4"/>
+  <circle cx="1150" cy="160" r="5" fill="#6639ba" opacity="0.5"/>
+  <circle cx="1120" cy="220" r="4" fill="#0969da" opacity="0.3"/>
+</svg>
+<svg viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @media (prefers-color-scheme: dark) {
+        .card-bg { fill: #161b22; stroke: #58a6ff; }
+        .card-text-name { fill: #58a6ff; }
+        .card-text-role { fill: #79c0ff; }
+        .card-text-location { fill: #a371f7; }
+        .card-text-email { fill: #79c0ff; }
+        .lanyard-line { stroke: #58a6ff; }
+      }
+      @media (prefers-color-scheme: light) {
+        .card-bg { fill: #f6f8fa; stroke: #0969da; }
+        .card-text-name { fill: #0969da; }
+        .card-text-role { fill: #1158c7; }
+        .card-text-location { fill: #6639ba; }
+        .card-text-email { fill: #1158c7; }
+        .lanyard-line { stroke: #0969da; }
+      }
+      
+      .card-bg { fill: #161b22; stroke: #58a6ff; stroke-width: 2; }
+      .card-text-name { fill: #58a6ff; font-size: 32px; font-weight: bold; font-family: 'Courier New', monospace; }
+      .card-text-role { fill: #79c0ff; font-size: 20px; font-family: 'Courier New', monospace; }
+      .card-text-location { fill: #a371f7; font-size: 16px; font-family: 'Courier New', monospace; }
+      .card-text-email { fill: #79c0ff; font-size: 14px; font-family: 'Courier New', monospace; }
+      .lanyard-line { stroke: #58a6ff; stroke-width: 4; }
+      
+      @keyframes swing {
+        0%, 100% { transform: rotateZ(0deg); transform-origin: 200px 0; }
+        50% { transform: rotateZ(3deg); transform-origin: 200px 0; }
+      }
+      @keyframes pulse {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.8; }
+      }
+      
+      .card-group { animation: swing 3s ease-in-out infinite; }
+      .glow-effect { animation: pulse 2s ease-in-out infinite; }
+    </style>
+  </defs>
+  
+  <!-- Lanyard string -->
+  <line x1="200" y1="0" x2="200" y2="50" class="lanyard-line"/>
+  
+  <!-- Card group (swings) -->
+  <g class="card-group glow-effect">
+    <!-- ID Card -->
+    <rect x="50" y="60" width="300" height="380" rx="15" class="card-bg"/>
+    
+    <!-- Card header line -->
+    <line x1="60" y1="100" x2="340" y2="100" class="lanyard-line"/>
+    
+    <!-- Profile section -->
+    <circle cx="200" cy="140" r="30" fill="#58a6ff" opacity="0.3"/>
+    <text x="200" y="150" text-anchor="middle" font-size="40" text-decoration="none">👨‍💻</text>
+    
+    <!-- Name -->
+    <text x="200" y="200" text-anchor="middle" class="card-text-name">DARSHAN</text>
+    
+    <!-- Role -->
+    <text x="200" y="235" text-anchor="middle" class="card-text-role">AIML ENGINEER</text>
+    
+    <!-- Divider -->
+    <line x1="70" y1="250" x2="330" y2="250" class="lanyard-line" opacity="0.5"/>
+    
+    <!-- Location -->
+    <text x="70" y="290" class="card-text-location">📍 Location:</text>
+    <text x="70" y="315" class="card-text-location" font-size="16">INDIA</text>
+    
+    <!-- Email -->
+    <text x="70" y="355" class="card-text-email">📧 Email:</text>
+    <text x="70" y="375" class="card-text-email" font-size="12">darshan07062008@gmail.com</text>
+    
+    <!-- Quote -->
+    <text x="70" y="410" class="card-text-email" font-size="13" font-style="italic">"Always learning,</text>
+    <text x="70" y="428" class="card-text-email" font-size="13" font-style="italic">always coding"</text>
+  </g>
+</svg><svg viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @media (prefers-color-scheme: dark) {
+        .card-bg { fill: #161b22; stroke: #58a6ff; }
+        .card-text-name { fill: #58a6ff; }
+        .card-text-role { fill: #79c0ff; }
+        .card-text-location { fill: #a371f7; }
+        .card-text-email { fill: #79c0ff; }
+        .lanyard-line { stroke: #58a6ff; }
+      }
+      @media (prefers-color-scheme: light) {
+        .card-bg { fill: #f6f8fa; stroke: #0969da; }
+        .card-text-name { fill: #0969da; }
+        .card-text-role { fill: #1158c7; }
+        .card-text-location { fill: #6639ba; }
+        .card-text-email { fill: #1158c7; }
+        .lanyard-line { stroke: #0969da; }
+      }
+      
+      .card-bg { fill: #161b22; stroke: #58a6ff; stroke-width: 2; }
+      .card-text-name { fill: #58a6ff; font-size: 32px; font-weight: bold; font-family: 'Courier New', monospace; }
+      .card-text-role { fill: #79c0ff; font-size: 20px; font-family: 'Courier New', monospace; }
+      .card-text-location { fill: #a371f7; font-size: 16px; font-family: 'Courier New', monospace; }
+      .card-text-email { fill: #79c0ff; font-size: 14px; font-family: 'Courier New', monospace; }
+      .lanyard-line { stroke: #58a6ff; stroke-width: 4; }
+      
+      @keyframes swing {
+        0%, 100% { transform: rotateZ(0deg); transform-origin: 200px 0; }
+        50% { transform: rotateZ(3deg); transform-origin: 200px 0; }
+      }
+      @keyframes pulse {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.8; }
+      }
+      
+      .card-group { animation: swing 3s ease-in-out infinite; }
+      .glow-effect { animation: pulse 2s ease-in-out infinite; }
+    </style>
+  </defs>
+  
+  <!-- Lanyard string -->
+  <line x1="200" y1="0" x2="200" y2="50" class="lanyard-line"/>
+  
+  <!-- Card group (swings) -->
+  <g class="card-group glow-effect">
+    <!-- ID Card -->
+    <rect x="50" y="60" width="300" height="380" rx="15" class="card-bg"/>
+    
+    <!-- Card header line -->
+    <line x1="60" y1="100" x2="340" y2="100" class="lanyard-line"/>
+    
+    <!-- Profile section -->
+    <circle cx="200" cy="140" r="30" fill="#58a6ff" opacity="0.3"/>
+    <text x="200" y="150" text-anchor="middle" font-size="40" text-decoration="none">👨‍💻</text>
+    
+    <!-- Name -->
+    <text x="200" y="200" text-anchor="middle" class="card-text-name">DARSHAN</text>
+    
+    <!-- Role -->
+    <text x="200" y="235" text-anchor="middle" class="card-text-role">AIML ENGINEER</text>
+    
+    <!-- Divider -->
+    <line x1="70" y1="250" x2="330" y2="250" class="lanyard-line" opacity="0.5"/>
+    
+    <!-- Location -->
+    <text x="70" y="290" class="card-text-location">📍 Location:</text>
+    <text x="70" y="315" class="card-text-location" font-size="16">INDIA</text>
+    
+    <!-- Email -->
+    <text x="70" y="355" class="card-text-email">📧 Email:</text>
+    <text x="70" y="375" class="card-text-email" font-size="12">darshan07062008@gmail.com</text>
+    
+    <!-- Quote -->
+    <text x="70" y="410" class="card-text-email" font-size="13" font-style="italic">"Always learning,</text>
+    <text x="70" y="428" class="card-text-email" font-size="13" font-style="italic">always coding"</text>
+  </g>
+</svg>
+<div align="center">
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=4000&pause=1000&color=00FF41&center=true&vCenter=true&width=650&lines=WELCOME%20TO%20MY%20GITHUB%20PORTFOLIO" alt="Typing introduction" />
-</p>
+<!-- ✨ Animated Banner — auto-switches dark/light ✨ -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./banner.svg?v=1">
+  <source media="(prefers-color-scheme: light)" srcset="./banner-light.svg?v=1">
+  <img src="./banner.svg?v=1" alt="DARSHAN — AIML Engineer" width="100%"/>
+</picture>
 
-<p align="center">
-  <a href="https://komarev.com/ghpvc/?username=DARSHAN-Sky">
-    <img src="https://komarev.com/ghpvc/?username=DARSHAN-Sky&label=Profile%20views&color=00FFFF&style=flat-square" alt="DARSHAN-Sky's profile views" />
-  </a>
-</p>
+</div>
 
-<img src="https://i.pinimg.com/originals/f5/03/b5/f503b5d3eceb6a2e621773eb53a2f39c.gif" alt="Banner" width="100%" />
-
-## 📌 About Me
-- I'M CURRENTLY LEARNING ABOUT AIML
-
-
-## 🧠 My Focus Areas
-- Web development
-- AIML research
-- Open source contribution
-
-
-## 📊 GitHub Stats & Trophies
-<p align="center">
-  <a href="https://github.com/DARSHAN-Sky">
-    <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=DARSHAN-Sky&cache_seconds=7200&layout=compact&theme=radical&border_radius=10" alt="DARSHAN-Sky's GitHub Stats" />
-  </a>
-  <img src="https://streak-stats.demolab.com/?user=DARSHAN-Sky&theme=radical&hide_border=true&cache_seconds=86400" alt="DARSHAN-Sky's GitHub Streak" width="49%" />
-</p>
-<p align="center">
-  <img height="280em" src="https://github-readme-activity-graph.vercel.app/graph?username=DARSHAN-Sky&theme=radical&radius=10" alt="DARSHAN-Sky's Activity Graph" />
-</p>
-
-
-## 🛠️ Languages & Tools
-
-<h3 align="center">Programming Languages</h3>
-<p align="center">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="40" />&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java" width="40" />&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="C++" width="40" />
-
-</p>
-
-<h3 align="center">Frontend</h3>
-<p align="center">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML5" width="40" />
-
-</p>
-
-<h3 align="center">Tools</h3>
-<p align="center">
-  <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="40" />&nbsp;&nbsp;
-  <img src="https://www.vectorlogo.zone/logos/visualstudio_code/visualstudio_code-icon.svg" alt="VS Code" width="40" />
-
-</p>
-
-<p align="center">
-  <a href="https://github.com/DARSHAN-Sky">
-    <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=DARSHAN-Sky&langs_count=8&layout=compact&theme=radical&border_radius=10" alt="Top Languages" />
-  </a>
-</p>
-
-![Top language](https://stats.pphat.top/languages?username=DARSHAN-Sky)
 <br/>
 
-## 🔗 Connect with Me
-<p align="center">
-  <a href="www.linkedin.com/in/darshan-r-r">
-    <img src="https://raw.githubusercontent.com/gauravghongde/social-icons/master/SVG/Color/LinkedIN.svg" alt="LinkedIn" width="40" />
-  </a>&nbsp;&nbsp;
-  <a href="https://wa.me/8056647668">
-    <img src="https://raw.githubusercontent.com/gauravghongde/social-icons/master/SVG/Color/WhatsApp.svg" alt="WhatsApp" width="40" />
-  </a>&nbsp;&nbsp;
-  <a href="http://www.youtube.com/@Darshan2008Sky">
-    <img src="https://raw.githubusercontent.com/gauravghongde/social-icons/master/SVG/Color/Youtube.svg" alt="YouTube" width="40" />
-  </a>&nbsp;&nbsp;
-  <a href="mailto:darshan07062008@gmail.com">
-    <img src="https://raw.githubusercontent.com/gauravghongde/social-icons/master/SVG/Color/Gmail.svg" alt="Gmail" width="40" />
-  </a>
-</p>
+<table align="center" border="0">
+<tr>
+<td width="38%" align="center" valign="middle">
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/czl9707/gh-space-shooter/main/example.gif" alt="Space shooter contribution graph" />
-</p>
+<!-- 🪪 Swinging Lanyard ID Card -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./lanyard.svg?v=1">
+  <source media="(prefers-color-scheme: light)" srcset="./lanyard.svg?v=1">
+  <img src="./lanyard.svg?v=1" alt="DARSHAN ID Badge" width="330"/>
+</picture>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=poppins&pause=1000&color=00F7CD&background=FF0000&center=true&vCenter=true&random=true&width=450&height=54&lines=I+speak+fluent+Git%2C+Python+and+JavaScripT;WELCOME+AGAIN)](https://git.io/typing-svg)
+</td>
+<td width="62%" valign="middle">
 
+### ☕ Quick About Me
+
+```python
+class DARSHAN:
+    def __init__(self):
+        self.role = "AIML Engineer"
+        self.location = "India"
+        self.email = "darshan07062008@gmail.com"
+        self.quote = "Always learning, always coding"
+        self.passion = "AI/ML Development"
