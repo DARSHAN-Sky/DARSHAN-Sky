@@ -59,7 +59,7 @@ text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
     <path d="M191 -6 L229 -6 L226 236 L194 236 Z" fill="url(#strapg)"/>
     <line x1="196" y1="0" x2="198.5" y2="234" stroke="#fff" stroke-opacity=".55" stroke-width="1" stroke-dasharray="4 3"/>
     <line x1="224" y1="0" x2="221.5" y2="234" stroke="#fff" stroke-opacity=".55" stroke-width="1" stroke-dasharray="4 3"/>
-    <text x="0" y="0" font-size="10.5" font-weight="bold" fill="#fff" opacity=".92" letter-spacing="2" transform="translate(214,18) rotate(90)">DARSHAN.DEV &#x2615; CODE &#x2615; SHRIKANT.DEV</text>
+    <text x="0" y="0" font-size="10.5" font-weight="bold" fill="#fff" opacity=".92" letter-spacing="2" transform="translate(214,18) rotate(90)">DARSHAN &#x2615; CODE &#x2615; DARSHAN</text>
   </g>
 
   <!-- Clasp + ring -->
@@ -97,7 +97,7 @@ text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
 
       <!-- Role -->
       <rect x="118" y="497" width="184" height="20" rx="10" fill="#1a0e24"/>
-      <text x="210" y="511" text-anchor="middle" font-size="10.5" fill="#c084fc" letter-spacing=".5">AI ML Engineer </text>
+      <text x="210" y="511" text-anchor="middle" font-size="10.5" fill="#c084fc" letter-spacing=".5">AIML Engineer </text>
 
       <!-- divider -->
       <line x1="110" y1="525" x2="310" y2="525" stroke="#3b1d50" stroke-width="1"/>
@@ -108,7 +108,7 @@ text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
       <text x="110" y="560" font-size="10" fill="#6b7280">&#x1F4C5;</text>
       <text x="126" y="560" font-size="10" fill="#9ca3af">2026 - 2029</text>
       <text x="110" y="577" font-size="10" fill="#6b7280">&#x1F4A1;</text>
-      <text x="126" y="577" font-size="10" fill="#9ca3af">AI/ML In Progress</text>
+      <text x="126" y="577" font-size="10" fill="#9ca3af">AIML In Progress</text>
       <text x="110" y="594" font-size="10" fill="#6b7280">&#x1F4EC;</text>
       <text x="126" y="594" font-size="10" fill="#9ca3af">Open to Internships</text>
 
