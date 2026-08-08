@@ -50,9 +50,18 @@
     <!-- Card header line -->
     <line x1="60" y1="100" x2="340" y2="100" class="lanyard-line"/>
     
-    <!-- Profile section -->
-    <circle cx="200" cy="140" r="30" fill="#58a6ff" opacity="0.3"/>
-    <text x="200" y="150" text-anchor="middle" font-size="40" text-decoration="none">👨‍💻</text>
+    <!-- Profile image circle mask -->
+    <defs>
+      <clipPath id="profileCircle">
+        <circle cx="200" cy="140" r="35"/>
+      </clipPath>
+    </defs>
+    
+    <!-- Profile image -->
+    <image x="165" y="105" width="70" height="70" href="https://img.magnific.com/premium-vector/young-man-anime-style-character-vector-illustration-design-manga-anime-boy_147933-4741.jpg?semt=ais_test_b&w=740&q=80" clip-path="url(#profileCircle)"/>
+    
+    <!-- Profile circle border -->
+    <circle cx="200" cy="140" r="35" fill="none" stroke="#58a6ff" stroke-width="2"/>
     
     <!-- Name -->
     <text x="200" y="200" text-anchor="middle" class="card-text-name">DARSHAN</text>
