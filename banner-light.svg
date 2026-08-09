@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 740" width="1280" height="740" role="img" aria-label="Darshan - AIML Enthusiast (Light)">
-<title>Darshan — &amp; AIML Enthusiast</title>
+<title>Darshan — AIML Enthusiast</title>
 <defs>
 <style type="text/css"><![CDATA[
 text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
@@ -51,10 +51,10 @@ text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
 <clipPath id="q2"><rect x="48" y="200" width="0" height="150"><animate attributeName="width" from="0" to="350" dur=".6s" begin="4.2s" fill="freeze"/></rect></clipPath>
 
 <!-- Cycling roles -->
-<clipPath id="r1"><rect x="48" y="100" width="0" height="200"><animate attributeName="width" values="0;0;360;360;0;0" keyTimes="0;.01;.07;.2;.24;1" dur="24s" repeatCount="indefinite" begin="2.9s"/[...]</clipPath>
-<clipPath id="r2"><rect x="48" y="100" width="0" height="200"><animate attributeName="width" values="0;0;360;360;0;0" keyTimes="0;.26;.32;.45;.49;1" dur="24s" repeatCount="indefinite" begin="2.9s"[...]</clipPath>
-<clipPath id="r3"><rect x="48" y="100" width="0" height="200"><animate attributeName="width" values="0;0;360;360;0;0" keyTimes="0;.51;.57;.7;.74;1" dur="24s" repeatCount="indefinite" begin="2.9s"/[...]</clipPath>
-<clipPath id="r4"><rect x="48" y="100" width="0" height="200"><animate attributeName="width" values="0;0;360;360;0;0" keyTimes="0;.76;.82;.95;.99;1" dur="24s" repeatCount="indefinite" begin="2.9s"/[...]</clipPath>
+<clipPath id="r1"><rect x="48" y="100" width="0" height="200"><animate attributeName="width" values="0;0;360;360;0;0" keyTimes="0;.01;.07;.2;.24;1" dur="24s" repeatCount="indefinite" begin="2.9s"/></rect></clipPath>
+<clipPath id="r2"><rect x="48" y="100" width="0" height="200"><animate attributeName="width" values="0;0;360;360;0;0" keyTimes="0;.26;.32;.45;.49;1" dur="24s" repeatCount="indefinite" begin="2.9s"/></rect></clipPath>
+<clipPath id="r3"><rect x="48" y="100" width="0" height="200"><animate attributeName="width" values="0;0;360;360;0;0" keyTimes="0;.51;.57;.7;.74;1" dur="24s" repeatCount="indefinite" begin="2.9s"/></rect></clipPath>
+<clipPath id="r4"><rect x="48" y="100" width="0" height="200"><animate attributeName="width" values="0;0;360;360;0;0" keyTimes="0;.76;.82;.95;.99;1" dur="24s" repeatCount="indefinite" begin="2.9s"/></rect></clipPath>
 
 <clipPath id="charReveal"><rect x="700" y="-30" width="560" height="0">
   <animate attributeName="height" from="0" to="800" dur="1.8s" begin=".5s" fill="freeze"/>
@@ -82,7 +82,7 @@ text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
 
 <!-- ================= LEFT: CONTENT ================= -->
 <!-- Terminal prompt -->
-<text clip-path="url(#cPrompt)" x="48" y="55" font-size="14"><tspan fill="#4ade80" font-weight="bold">user@dev</tspan><tspan fill="#6b7280">:~$ </tspan><tspan fill="#1e1b4b">catty </tspan><tspan f[...]
+<text clip-path="url(#cPrompt)" x="48" y="55" font-size="14"><tspan fill="#4ade80" font-weight="bold">user@dev</tspan><tspan fill="#6b7280">:~$ </tspan><tspan fill="#1e1b4b">cat profile.txt</tspan></text>
 
 <!-- Hi, I'm -->
 <text clip-path="url(#cHi)" x="48" y="96" font-size="22" font-weight="bold" fill="#1e1b4b">Hey there! &#x1F44B;</text>
@@ -111,21 +111,21 @@ text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
 <!-- Tech Stack -->
 <text class="ii" x="48" y="348" font-size="15" fill="#a855f7" font-weight="bold" style="animation:fadeIn .4s ease 4.6s forwards">&#x1F9E9; Tech Stack</text>
 <!-- Row 1 -->
-<g class="pill" style="animation:fadeIn .3s ease 4.8s forwards"><rect x="48" y="364" width="65" height="26" rx="13" fill="rgba(239,68,68,.13)" stroke="#61dafb" stroke-width="1"/><text x="80" y="3[...]
-<g class="pill" style="animation:fadeIn .3s ease 4.9s forwards"><rect x="121" y="364" width="88" height="26" rx="13" fill="rgba(247,223,30,.10)" stroke="#f7df1e" stroke-width="1"/><text x="165" y[...]
-<g class="pill" style="animation:fadeIn .3s ease 5s forwards"><rect x="217" y="364" width="76" height="26" rx="13" fill="rgba(53,114,165,.14)" stroke="#3572A5" stroke-width="1"/><text x="255" y="[...]
-<g class="pill" style="animation:fadeIn .3s ease 5.1s forwards"><rect x="301" y="364" width="70" height="26" rx="13" fill="rgba(97,218,251,.10)" stroke="#61dafb" stroke-width="1"/><text x="336" y[...]
+<g class="pill" style="animation:fadeIn .3s ease 4.8s forwards"><rect x="48" y="364" width="65" height="26" rx="13" fill="rgba(239,68,68,.13)" stroke="#61dafb" stroke-width="1"/><text x="80" y="380" text-anchor="middle" font-size="12" fill="#1e1b4b" font-weight="bold">React</text></g>
+<g class="pill" style="animation:fadeIn .3s ease 4.9s forwards"><rect x="121" y="364" width="88" height="26" rx="13" fill="rgba(247,223,30,.10)" stroke="#f7df1e" stroke-width="1"/><text x="165" y="380" text-anchor="middle" font-size="12" fill="#1e1b4b" font-weight="bold">JavaScript</text></g>
+<g class="pill" style="animation:fadeIn .3s ease 5s forwards"><rect x="217" y="364" width="76" height="26" rx="13" fill="rgba(53,114,165,.14)" stroke="#3572A5" stroke-width="1"/><text x="255" y="380" text-anchor="middle" font-size="12" fill="#1e1b4b" font-weight="bold">Python</text></g>
+<g class="pill" style="animation:fadeIn .3s ease 5.1s forwards"><rect x="301" y="364" width="70" height="26" rx="13" fill="rgba(97,218,251,.10)" stroke="#61dafb" stroke-width="1"/><text x="336" y="380" text-anchor="middle" font-size="12" fill="#1e1b4b" font-weight="bold">TypeScript</text></g>
 <!-- Row 2 -->
-<g class="pill" style="animation:fadeIn .3s ease 5.2s forwards"><rect x="48" y="398" width="565" height="26" rx="13" fill="rgba(109,179,63,.13)" stroke="#6DB33F" stroke-width="1"/><text x="428" y[...]
-<g class="pill" style="animation:fadeIn .3s ease 5.4s forwards"><rect x="244" y="398" width="70" height="26" rx="13" fill="rgba(245,158,11,.12)" stroke="#f59e0b" stroke-width="1"/><text x="279" y[...]
-<g class="pill" style="animation:fadeIn .3s ease 5.5s forwards"><rect x="322" y="398" width="68" height="26" rx="13" fill="rgba(227,79,38,.13)" stroke="#e34f26" stroke-width="1"/><text x="356" y=[...]
-<g class="pill" style="animation:fadeIn .3s ease 5.6s forwards"><rect x="398" y="398" width="60" height="26" rx="13" fill="rgba(168,85,247,.13)" stroke="#a855f7" stroke-width="1"/><text x="428" y[...]
+<g class="pill" style="animation:fadeIn .3s ease 5.2s forwards"><rect x="48" y="398" width="75" height="26" rx="13" fill="rgba(109,179,63,.13)" stroke="#6DB33F" stroke-width="1"/><text x="85" y="414" text-anchor="middle" font-size="12" fill="#1e1b4b" font-weight="bold">Spring Boot</text></g>
+<g class="pill" style="animation:fadeIn .3s ease 5.4s forwards"><rect x="131" y="398" width="70" height="26" rx="13" fill="rgba(245,158,11,.12)" stroke="#f59e0b" stroke-width="1"/><text x="166" y="414" text-anchor="middle" font-size="12" fill="#1e1b4b" font-weight="bold">Firebase</text></g>
+<g class="pill" style="animation:fadeIn .3s ease 5.5s forwards"><rect x="209" y="398" width="68" height="26" rx="13" fill="rgba(227,79,38,.13)" stroke="#e34f26" stroke-width="1"/><text x="243" y="414" text-anchor="middle" font-size="12" fill="#1e1b4b" font-weight="bold">HTML/CSS</text></g>
+<g class="pill" style="animation:fadeIn .3s ease 5.6s forwards"><rect x="285" y="398" width="60" height="26" rx="13" fill="rgba(168,85,247,.13)" stroke="#a855f7" stroke-width="1"/><text x="315" y="414" text-anchor="middle" font-size="12" fill="#1e1b4b" font-weight="bold">Next.js</text></g>
 
 <!-- About Me -->
 <text class="ii" x="48" y="465" font-size="15" fill="#ef4444" font-weight="bold" style="animation:fadeIn .4s ease 5.8s forwards">&#x2615; About Me</text>
-<text class="ii" x="48" y="490" font-size="13.5" style="animation:fadeIn .4s ease 6s forwards"><tspan fill="#4ade80">&gt;_ </tspan><tspan fill="#374151">learning AI/ML.</tspan></text>
-<text class="ii" x="48" y="514" font-size="13.5" style="animation:fadeIn .4s ease 6.2s forwards"><tspan fill="#fde047">&#x1F393; </tspan><tspan fill="#374151">RATHINAM, Coimbatore  |  Comp. Engg.[...]
-<text class="ii" x="48" y="538" font-size="13.5" style="animation:fadeIn .4s ease 6.4s forwards"><tspan fill="#a855f7">&#x1F680; </tspan><tspan fill="#374151">Open to internships &amp; collaborat[...]
+<text class="ii" x="48" y="490" font-size="13.5" style="animation:fadeIn .4s ease 6s forwards"><tspan fill="#4ade80">&gt;_ </tspan><tspan fill="#374151">learning AI/ML &amp; Web Dev</tspan></text>
+<text class="ii" x="48" y="514" font-size="13.5" style="animation:fadeIn .4s ease 6.2s forwards"><tspan fill="#fde047">&#x1F393; </tspan><tspan fill="#374151">RATHINAM, Coimbatore | Comp. Engg.</tspan></text>
+<text class="ii" x="48" y="538" font-size="13.5" style="animation:fadeIn .4s ease 6.4s forwards"><tspan fill="#a855f7">&#x1F680; </tspan><tspan fill="#374151">Open to internships &amp; collaboration</tspan></text>
 
 <!-- Stats bar -->
 <g class="st" style="animation:fadeIn .5s ease 6.6s forwards">
@@ -160,15 +160,15 @@ text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
   <text x="545" y="63" font-size="10" fill="#6b7280">dreams.jsx</text>
 </g>
 <!-- Code lines typed in -->
-<text class="codeln" x="436" y="92" font-size="12" style="animation-delay:1.4s"><tspan fill="#c084fc">function</tspan><tspan fill="#1e1b4b"> </tspan><tspan fill="#ffa657">buildDreams</tspan><tspa[...]
+<text class="codeln" x="436" y="92" font-size="12" style="animation-delay:1.4s"><tspan fill="#c084fc">function</tspan><tspan fill="#1e1b4b"> </tspan><tspan fill="#ffa657">buildDreams</tspan><tspan fill="#1e1b4b">() {</tspan></text>
 <text class="codeln" x="436" y="110" font-size="12" style="animation-delay:1.8s"><tspan fill="#1e1b4b">  </tspan><tspan fill="#c084fc">return</tspan><tspan fill="#1e1b4b"> (</tspan></text>
-<text class="codeln" x="436" y="128" font-size="12" style="animation-delay:2.2s"><tspan fill="#1e1b4b">    </tspan><tspan fill="#ef4444">&lt;div</tspan><tspan fill="#1e1b4b"> </tspan><tspan fill=[...]
+<text class="codeln" x="436" y="128" font-size="12" style="animation-delay:2.2s"><tspan fill="#1e1b4b">    </tspan><tspan fill="#ef4444">&lt;div</tspan><tspan fill="#1e1b4b"> </tspan><tspan fill="#a855f7">className</tspan><tspan fill="#1e1b4b">=</tspan><tspan fill="#22c55e">"dreams"</tspan><tspan fill="#ef4444">&gt;</tspan></text>
 <text class="codeln" x="436" y="146" font-size="12" style="animation-delay:2.6s"><tspan fill="#1e1b4b">      </tspan><tspan fill="#ef4444">&lt;Code /&gt;</tspan></text>
 <text class="codeln" x="436" y="164" font-size="12" style="animation-delay:3s"><tspan fill="#1e1b4b">      </tspan><tspan fill="#ffa657">&lt;Coffee /&gt;</tspan></text>
 <text class="codeln" x="436" y="182" font-size="12" style="animation-delay:3.4s"><tspan fill="#1e1b4b">      </tspan><tspan fill="#4ade80">&lt;Repeat /&gt;</tspan></text>
 <text class="codeln" x="436" y="200" font-size="12" style="animation-delay:3.8s"><tspan fill="#1e1b4b">      </tspan><tspan fill="#fde047">&lt;Success /&gt;</tspan></text>
-<text class="codeln" x="436" y="218" font-size="12" style="animation-delay:4.2s"><tspan fill="#1e1b4b">    </tspan><tspan fill="#ef4444">&lt;/div&gt;</tspan><tspan fill="#1e1b4b">);</tspan></text[...]
-<text class="codeln" x="436" y="236" font-size="12" style="animation-delay:4.6s"><tspan fill="#1e1b4b">} </tspan><tspan fill="#6b7280">// export default</tspan></text>
+<text class="codeln" x="436" y="218" font-size="12" style="animation-delay:4.2s"><tspan fill="#1e1b4b">    </tspan><tspan fill="#ef4444">&lt;/div&gt;</tspan><tspan fill="#1e1b4b">);</tspan></text>
+<text class="codeln" x="436" y="236" font-size="12" style="animation-delay:4.6s"><tspan fill="#1e1b4b">}</tspan><tspan fill="#6b7280"> // export default</tspan></text>
 
 <!-- ================= TOP RIGHT: NEON SIGN ================= -->
 <g class="neon" style="animation:neonFlicker 2.4s ease 5s forwards">
@@ -183,7 +183,7 @@ text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
 
 <g class="fl">
   <g clip-path="url(#charReveal)">
-    <image x="720" y="-30" width="520" height="780" preserveAspectRatio="xMidYMid meet" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAXcAAAIzCAYAAAD74VkZAAABCGlDQ1BJQ0MgUHJvZmlsZQAAeJxjYGA[...]"/>
+    <rect x="720" y="-30" width="520" height="780" fill="#f5e6ff" opacity="0.3"/>
   </g>
 </g>
 
