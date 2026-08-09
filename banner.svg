@@ -2,3 +2,7 @@
 <text x="48" y="160" font-size="34" font-weight="bold" fill="url(#nameg)" filter="url(#glow)" style="font-family:'Segoe Script', 'Brush Script MT', 'Comic Sans MS', cursive">
   <tspan class="ltr" style="animation-delay:1.50s">D</tspan><tspan class="ltr" style="animation-delay:1.55s">a</tspan><tspan class="ltr" style="animation-delay:1.60s">r</tspan><tspan class="ltr" style="animation-delay:1.65s">s</tspan><tspan class="ltr" style="animation-delay:1.70s">h</tspan><tspan class="ltr" style="animation-delay:1.75s">a</tspan><tspan class="ltr" style="animation-delay:1.80s">n</tspan>
 </text>
+<!-- Name: Darshan (Sized perfectly at 34px so it NEVER collides with editor at x=440) -->
+<text x="48" y="160" font-size="34" font-weight="bold" fill="url(#nameg)" filter="url(#glow)" style="font-family:'Segoe Script', 'Brush Script MT', 'Comic Sans MS', cursive">
+  <tspan class="ltr" style="animation-delay:1.50s">D</tspan><tspan class="ltr" style="animation-delay:1.55s">a</tspan><tspan class="ltr" style="animation-delay:1.60s">r</tspan><tspan class="ltr" style="animation-delay:1.65s">s</tspan><tspan class="ltr" style="animation-delay:1.70s">h</tspan><tspan class="ltr" style="animation-delay:1.75s">a</tspan><tspan class="ltr" style="animation-delay:1.80s">n</tspan>
+</text>
