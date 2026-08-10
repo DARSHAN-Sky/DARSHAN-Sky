@@ -81,8 +81,6 @@ text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
 <rect x="1" y="1" width="1278" height="738" rx="22" fill="none" stroke="url(#borderg)" stroke-width="1.5"/>
 
 <!-- ================= LEFT: CONTENT ================= -->
-<!-- Terminal prompt -->
-<text clip-path="url(#cPrompt)" x="48" y="55" font-size="14"><tspan fill="#4ade80" font-weight="bold">user@dev</tspan><tspan fill="#8b949e">:~$ </tspan><tspan fill="#e6edf3">catty </tspan><tspan fill="#ef4444">README.md</tspan></text>
 
 <!-- Hi, I'm -->
 <text clip-path="url(#cHi)" x="48" y="96" font-size="22" font-weight="bold" fill="#e6edf3">Hey there! &#x1F44B;</text>
