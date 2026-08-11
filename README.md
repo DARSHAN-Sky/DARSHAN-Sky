@@ -16,7 +16,7 @@
 <td width="38%" align="center" valign="middle">
 
 <!-- 🪪 Swinging Lanyard ID Card -->
-<img src="./lanyard.svg?v=10" alt="DARSHAN ID badge" width="330"/>
+<img src="./lanyard.svg?v=10" alt="DARSHAN ID badge" width="500"/>
 
 </td>
-<td width="62%" valign="middle">
+<td width="80%" valign="middle">
